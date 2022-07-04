@@ -32,3 +32,6 @@ class FooList(Interface, list[InterfaceOrInt]):
 
     def sorted(self) -> "FooList":
         return FooList()
+
+
+reveal_type(FooDict)
