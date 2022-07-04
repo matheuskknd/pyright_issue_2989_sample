@@ -1,0 +1,6 @@
+[submodule "typings/python-type-stubs"]
+	path = typings/python-type-stubs
+	url = git@github.com:microsoft/python-type-stubs.git
+[submodule "typings/typeshed"]
+	path = typings/typeshed
+	url = git@github.com:python/typeshed.git

@@ -1,0 +1,28 @@
+{
+  "include": [
+    "*.py"
+  ],
+  "exclude": [
+    "**/__pycache__",
+    "**/\\.*"
+  ],
+  "ignore": [
+    "typings/*",
+    "**/test_*"
+  ],
+  "defineConstant": {
+    "DEBUG": true,
+    "COMMENT_001": "A similar error is happening here: https://github.com/microsoft/pylance-release/issues/2255"
+  },
+  "extraPaths": [],
+  "typeshedPath": "./typings/typeshed",
+  "stubPath": "./typings/python-type-stubs",
+  "typeCheckingMode": "strict",
+  "useLibraryCodeForTypes": true,
+  "verboseOutput": false,
+  "pythonVersion": "3.10",
+  "pythonPlatform": "All",
+  "reportMissingTypeStubs": "information",
+  "reportUnknownVariableType": "information",
+  "reportMissingTypeArgument": "information"
+}
