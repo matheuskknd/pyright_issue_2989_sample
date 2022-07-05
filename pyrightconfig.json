@@ -17,6 +17,8 @@
   "extraPaths": [],
   "typeshedPath": "./typings/typeshed",
   "stubPath": "./typings/python-type-stubs",
+  "venvPath": ".",
+  "venv": ".venv",
   "typeCheckingMode": "strict",
   "useLibraryCodeForTypes": true,
   "verboseOutput": false,
